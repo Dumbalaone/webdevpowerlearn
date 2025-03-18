@@ -1,0 +1,20 @@
+#indexing/accesing elements
+numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print(numbers[5])
+print(numbers[-1])
+print(numbers[::-1])
+print(numbers[::3])
+print(numbers[5:])
+print(numbers[2:10:2])
+print(numbers[10:2:-2])
+print(numbers[9:0:-3])
+
+#others/builtin
+my_tuple = ('a', 'k', 'c', 'z', 'x')
+print(my_tuple.count('a'))
+print(my_tuple.index('c'))
+print(len(my_tuple))
+print(max(my_tuple))
+print(min(my_tuple))
+print(sum(numbers))
+print(sorted(my_tuple))
